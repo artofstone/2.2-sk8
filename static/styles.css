@@ -1,0 +1,14 @@
+*box{
+   box-sizing: border-box;
+}
+
+body {background-image: imgs="bg.jpg";
+    max-width: 100%;
+}
+
+@media (min-width: 450px){
+    .box{
+        display: inline-block;
+        width: 25%;
+    }
+}
